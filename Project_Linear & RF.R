@@ -1,9 +1,5 @@
-#Hsing Yu Chen
-#Yu-Tien Shih
-#Math 151 Project
-
 #Read in the data file and set it to a data frame called soccer and check the head of soccer
-soccer <- read.csv('/Users/soniachen/Library/Mobile Documents/com~apple~CloudDocs/Documents/Math 151/Big_5_European_Leagues_Stats.csv',stringsAsFactors = T)
+soccer <- read.csv('Big_5_European_Leagues_Stats.csv',stringsAsFactors = T)
 head(soccer)
 str(soccer)
 summary(soccer)
